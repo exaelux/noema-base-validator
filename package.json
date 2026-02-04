@@ -1,0 +1,19 @@
+﻿{
+  "name": "noema-base-validator",
+  "version": "0.1.0",
+  "description": "Noema Base Validator (reference module)",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rmdir /s /q dist"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
